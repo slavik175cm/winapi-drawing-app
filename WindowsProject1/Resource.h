@@ -1,0 +1,66 @@
+﻿//{{NO_DEPENDENCIES}}
+// Включаемый файл, созданный в Microsoft Visual C++.
+// Используется WindowsProject1.rc
+#define CLEAR_ALL 322
+
+//colors
+#define RED_COLOR RGB(255, 0, 0)
+#define GREEN_COLOR RGB(0, 128, 0)
+#define BLUE_COLOR RGB(0, 0, 255)
+#define BLACK_COLOR RGB(0, 0, 0)
+#define YELLOW_COLOR RGB(255, 255, 0)
+#define PURPLE_COLOR RGB(128, 0, 128)
+#define ERASER_COLOR RGB(255, 255, 255)
+
+//color indexes
+#define BUTTON_ID_RED_COLOR 10000
+#define BUTTON_ID_BLACK_COLOR 10001
+#define BUTTON_ID_YELLOW_COLOR 10002
+#define BUTTON_ID_PURPLE_COLOR 10003
+#define BUTTON_ID_GREEN_COLOR 10004
+#define BUTTON_ID_BLUE_COLOR 10005
+#define BUTTON_ID_ERASER_COLOR 10006
+
+
+#define BUTTON_ID_WIDTH_1 11000
+#define BUTTON_ID_WIDTH_5 11001
+#define BUTTON_ID_WIDTH_10 11002
+#define BUTTON_ID_WIDTH_25 11003
+#define BUTTON_ID_WIDTH_50 11004
+
+#define BUTTON_ID_BRUSH 12000
+#define BUTTON_ID_RADIAL_BRUSH 12001
+
+#define BUTTON_ID_TOOL_PEN 13000
+#define BUTTON_ID_TOOL_SQUARE 13001
+#define BUTTON_ID_TOOL_CIRCLE 13002
+
+
+
+
+#define IDS_APP_TITLE			103
+
+#define IDR_MAINFRAME			128
+#define IDD_WINDOWSPROJECT1_DIALOG	102
+#define IDD_ABOUTBOX			103
+#define IDM_ABOUT				104
+#define IDM_EXIT				105
+#define IDI_WINDOWSPROJECT1			107
+#define IDI_SMALL				108
+#define IDC_WINDOWSPROJECT1			109
+#define IDC_MYICON				2
+#ifndef IDC_STATIC
+#define IDC_STATIC				-1
+#endif
+// Следующие стандартные значения для новых объектов
+//
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+
+#define _APS_NO_MFC					130
+#define _APS_NEXT_RESOURCE_VALUE	129
+#define _APS_NEXT_COMMAND_VALUE		32771
+#define _APS_NEXT_CONTROL_VALUE		1000
+#define _APS_NEXT_SYMED_VALUE		110
+#endif
+#endif
